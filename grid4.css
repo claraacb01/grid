@@ -1,0 +1,48 @@
+body{
+    margin: 40px;
+    }
+    
+    .wrapper{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 10px;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    }
+    
+    .box{
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    }
+
+    .a{
+        grid-area: 1/2/2/3;
+        }
+        
+        .b{
+            grid-area: 2/2/3/3;
+            }
+    
+        .c{
+            grid-area: 2/3/3/4;
+
+        }
+
+        .d{
+            grid-area: 1/1/2/2;
+        
+
+        }
+    
+        .e{
+            grid-area: 2/1/3/2;
+        }
+    
+        .f{
+            grid-area: 1/3/2/4;
+         }

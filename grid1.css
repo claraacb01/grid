@@ -1,0 +1,21 @@
+body{
+margin: 40px;
+}
+
+.wrapper{
+display: grid;
+grid-template-columns: 100px 100px 100px;
+gap: 10px;
+color: white;
+justify-content: center;
+align-content: center;
+align-items: center;
+}
+
+.box{
+background-color: crimson;
+color: white;
+border-radius: 10px;
+font-size: 30px;
+text-align: center;
+}
